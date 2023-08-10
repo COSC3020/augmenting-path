@@ -8,9 +8,7 @@ names, not indices, to indicate start and end node. The function returns a list
 of node names, starting with the start node and finishing with the end node. If
 there is no path, you must return an empty list.
 
-
-Test your new function; I've provided some basic testing code that uses
-[jsverify](https://jsverify.github.io/) in `code.test.js`.
+Test your new function; I've provided some basic testing code in `code.test.js`.
 
 To illustrate, here's an example graph:
 ![example graph](graph.png)
