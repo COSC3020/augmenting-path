@@ -6,7 +6,8 @@ going to implement this function. Start with the template I provided in
 `code.js`. Use an adjacency list data structure to represent the graph and node
 names, not indices, to indicate start and end node. The function returns a list
 of node names, starting with the start node and finishing with the end node. If
-there is no path, you must return an empty list.
+start and end node are the same, it should return a list containing only this
+node. If there is no path, you must return an empty list.
 
 Test your new function; I've provided some basic testing code in `code.test.js`.
 
